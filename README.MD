@@ -1,3 +1,10 @@
+# Pizzageon
+
+Comparing a Vanilla Neural Network and a Convolutional Neural Network performances on a small dataset consisting of pizzas and pidgeons.
+
+![example](images/pigeon_72.jpg) ![example](images/pizza_122.jpg)
+
+
 ## What to do
 
 In the console:
