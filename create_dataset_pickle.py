@@ -13,8 +13,8 @@ class Dataset:
 	data = None
 
 dataset = Dataset()
-dataset.target = np.ndarray((nb_of_images, ), dtype=int)
-dataset.data = np.ndarray((nb_of_images, 3, 200, 200), dtype=int)
+dataset.target = np.ndarray((nb_of_images, ), dtype='uint8')
+dataset.data = np.ndarray((nb_of_images, 3, 200, 200), dtype=bool)
 
 def create_narray_from_pixels_data(pixels, width, height):
 	array = np.zeros(shape=(3, height, width)) # RGB channels, width x height pixels
