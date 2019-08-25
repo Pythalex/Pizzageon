@@ -14,7 +14,7 @@ class Dataset:
 
 dataset = Dataset()
 dataset.target = np.ndarray((nb_of_images, ), dtype='uint8')
-dataset.data = np.ndarray((nb_of_images, 3, 200, 200), dtype=bool)
+dataset.data = np.ndarray((nb_of_images, 3, 200, 200), dtype='uint8')
 
 def create_narray_from_pixels_data(pixels, width, height):
 	array = np.zeros(shape=(3, height, width)) # RGB channels, width x height pixels
